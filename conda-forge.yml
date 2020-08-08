@@ -1,11 +1,5 @@
-appveyor:
-  secure:
-    BINSTAR_TOKEN: tumuXLL8PU75WMnRDemRy02ruEq2RpNxeK3dz0MjFssnosPm2v4EFjfNB4PTotA1
 bot:
   automerge: true
 provider:
   win: azure
-travis:
-  secure:
-    BINSTAR_TOKEN: iUAseAm5VMv4SyJXq3dmw2UXE/w6MBucAcyUFBdiU9KJ6Pk5E3GoJCVjcXITGsYfsz77JzJ01CXM/jEsQDPaytvVez6BDHNrQgUZYL+rK4/tAL/dteMB4C8GnEzhhK7+9fa95ZBbs/wmWf92jiwyO31NZ7SIihucDcnpvDwhgpT4IEET+UZR7WI8nXZKvteCuQSHXxnujUV7j6laRZlUOBjWEVsI1owMC8/XJU5ydfB/nZ5jLhpjqW/Ir5Nw1sz14hL68Z4d8R3CCFSucsuEEbnIQR7InTMDnNNrFwmXQ8jKQSxQDiJN4bxIRISXmOzc7oe9QU/C1bicv+0TZIrwig/XlOOvi4PkCO9Kf2YxLjx/rFL1pmrpnsj1ZiH/ZvAyxBCs32JsLYOomkvV46VS5SlwskSw8iLS79j738J5+t3Stxqe+1ht7vqMXUm0sVTLbJNu2qxM0MCH3bXHqaPAzdNcXRIuY0YK03yU3I+0ltbVSMOapTA0eUI4Jd48QJ8tDhhGw3dbuizgxmtxzDLJ8Ko7CUIow08MDxuXeyiwBpTVs1XyoWNFi1QA9m+XJg7A/qrM9qM6qQYcvtVYFnuxoBWn8jg7ds7JzYANYNf+fDRDxqkagww+4jnuxFWTc+EYsmO2+gTLqqr5Tsc8XWreFC/CiwIyuhy14UI+BuNxzTM=
 conda_forge_output_validation: true
