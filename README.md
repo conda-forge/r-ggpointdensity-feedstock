@@ -3,7 +3,7 @@ About r-ggpointdensity
 
 Home: https://github.com/LKremer/ggpointdensity
 
-Package license: GPL-3
+Package license: GPL-3.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpointdensity-feedstock/blob/main/LICENSE.txt)
 
