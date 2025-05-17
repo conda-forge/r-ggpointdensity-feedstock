@@ -42,12 +42,11 @@ test:
 
 about:
   home: https://github.com/LKremer/ggpointdensity
-  license: GPL-3.0-only
+  license: GPL-3.0-or-later
   summary: A cross between a 2D density plot and a scatter plot, implemented as a 'ggplot2' geom. Points in the scatter plot are  colored by the number of neighboring points. This is useful to visualize the 2D-distribution of points in case of overplotting.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
-    - LICENSE
 
 extra:
   recipe-maintainers:
