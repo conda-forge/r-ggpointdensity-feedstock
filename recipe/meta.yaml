@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpointdensity_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpointdensity/ggpointdensity_{{ version }}.tar.gz
-  sha256: 3ea646cf183c8bf7869b122a4ee972b53709056ff443ea71551b823524092a31
+  sha256: 611ecce4f8b7cfb8ccb31b2a7df2dbb8f1eb5cbb7b49db860785ebac8098f21e
 
 build:
-  number: 4
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -43,9 +43,7 @@ test:
 about:
   home: https://github.com/LKremer/ggpointdensity
   license: GPL-3.0-only
-  summary: A cross between a 2D density plot and a scatter plot, implemented as a 'ggplot2' geom.
-    Points in the scatter plot are  colored by the number of neighboring points. This
-    is useful to visualize the 2D-distribution of points in case of overplotting.
+  summary: A cross between a 2D density plot and a scatter plot, implemented as a 'ggplot2' geom. Points in the scatter plot are  colored by the number of neighboring points. This is useful to visualize the 2D-distribution of points in case of overplotting.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
