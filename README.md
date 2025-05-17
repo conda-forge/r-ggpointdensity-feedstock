@@ -9,7 +9,7 @@ About r-ggpointdensity
 
 Home: https://github.com/LKremer/ggpointdensity
 
-Package license: GPL-3.0-only
+Package license: GPL-3.0-or-later
 
 Summary: A cross between a 2D density plot and a scatter plot, implemented as a 'ggplot2' geom. Points in the scatter plot are  colored by the number of neighboring points. This is useful to visualize the 2D-distribution of points in case of overplotting.
 
@@ -18,7 +18,7 @@ About r-ggpointdensity
 
 Home: https://github.com/LKremer/ggpointdensity
 
-Package license: GPL-3.0-only
+Package license: GPL-3.0-or-later
 
 Summary: A cross between a 2D density plot and a scatter plot, implemented as a 'ggplot2' geom. Points in the scatter plot are  colored by the number of neighboring points. This is useful to visualize the 2D-distribution of points in case of overplotting.
 
