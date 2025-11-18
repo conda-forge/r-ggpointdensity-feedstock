@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpointdensity_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpointdensity/ggpointdensity_{{ version }}.tar.gz
-  sha256: 611ecce4f8b7cfb8ccb31b2a7df2dbb8f1eb5cbb7b49db860785ebac8098f21e
+  sha256: 1dc15d07c5ef15db60afa21bf4e86f8b671986959074fbd9f0f12645bbbf9a59
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
